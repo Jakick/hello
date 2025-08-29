@@ -8,6 +8,7 @@ function findTokens() {
   ];
   
   sources.forEach(source => {
+    console.log("helle");
     console.log('Checking:', source);
     // Look for JWT patterns, API keys, etc.
   });
